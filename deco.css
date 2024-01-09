@@ -1,0 +1,104 @@
+body{
+    font-family: Arial;
+    background-color: #FCFCFF;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace; /* Cambia la fuente a Courier New */
+    color: #F49AC2; /* color rosa coquette */
+    text-align: center; /* texto centrado */
+    padding: 20px; /* espaciado interno */
+    font-size: 36px; /* tamaño de la letra */
+  }
+  
+#si{
+    position: absolute;
+    background-color: #F49AC2; /* color rosa coquette */
+    color: white; /* texto blanco */
+    border: none; /* sin borde */
+    padding: 15px 32px; /* espaciado interno */
+    text-align: center; /* texto centrado */
+    text-decoration: none; /* sin subrayado */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* cursor de mano al pasar el ratón */
+    border-radius: 12px; /* bordes redondeados */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* sombra */
+    transition-duration: 0.4s; /* transición suave */
+    background-clip: padding-box; /* evita que el fondo se extienda hasta el borde */
+
+    top: 150px;
+    left: 640px;
+}      
+#si:hover {
+    background-color: #F7819F; /* color rosa más oscuro al pasar el ratón */
+    color: black; /* texto negro al pasar el ratón */
+  }
+
+#no{
+    position: absolute;
+    background-color: #F49AC2; /* color rosa coquette */
+    color: white; /* texto blanco */
+    border: none; /* sin borde */
+    padding: 15px 32px; /* espaciado interno */
+    text-align: center; /* texto centrado */
+    text-decoration: none; /* sin subrayado */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* cursor de mano al pasar el ratón */
+    border-radius: 12px; /* bordes redondeados */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* sombra */
+    transition-duration: 0.4s; /* transición suave */
+    background-clip: padding-box; /* evita que el fondo se extienda hasta el borde */
+
+    top: 150px;
+    left: 800px;
+}      
+#no:hover {
+    background-color: #F7819F; /* color rosa más oscuro al pasar el ratón */
+    color: black; /* texto negro al pasar el ratón */
+  }
+
+
+
+.container{
+    width: 200px;
+    margin: 0px auto;
+}
+
+
+.move1{
+    position: absolute;
+    top: 3epx;
+    right: 12px;
+}
+    
+.move2{
+    position: absolute;
+    bottom: 20px;
+    right: 19px;
+}
+   
+.move3{
+    position: absolute;
+top: 17px;
+right: 54px;
+
+}
+
+#sex{
+    color: #F7819F;
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+
+
+
